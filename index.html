@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Website Statis</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('gambar.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }.login-container {
+        width: 350px;
+        background: #ffffff10;
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        padding: 30px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        text-align: center;
+    }
+
+    .login-container h2 {
+        color: #fff;
+        margin-bottom: 20px;
+        font-size: 26px;
+    }
+
+    .input-box {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .input-box input {
+        width: 100%;
+        padding: 12px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+    }
+
+    .btn-login {
+        margin-top: 10px;
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 10px;
+        font-size: 18px;
+        background: #6C63FF;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .btn-login:hover {
+        background: #4f49cc;
+    }
+
+    .footer-text {
+        color: #ddd;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .footer-text a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+</style>
+
+</head>
+<body><div class="login-container">
+    <h2>Login</h2>
+
+    <form action="dashboard.html">
+        <div class="input-box">
+            <input type="keysa" placeholder="Username" required>
+        </div>
+        <div class="input-box">
+            <input type="12345" placeholder="Password" required>
+        </div>
+        <button class="btn-login" type="submit">Masuk</button>
+    </form>
+
+    <p class="footer-text">Belum punya akun? <a href="#">Daftar</a></p>
+</div>
+
+</body>
+</html>
